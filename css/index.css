@@ -58,8 +58,13 @@ body {
 
 }
 .navList div {
-  width: 800px;
-  height: 500px;
+  width: 760px;
+  height: 460px;
   background-color: pink;
+  border-radius: 20px;
   display: none;
+  padding: 20px;
+}
+.navList .play {
+  display: block;
 }
