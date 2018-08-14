@@ -46,4 +46,4 @@ function onMouesemove(e) {
   bigImg.style.left = -(parseInt(mask.style.left) * 2) + 'px';
   bigImg.style.top = -(parseInt(mask.style.top) * 2) + 'px';
 }
-smallBox.addEventListener('mouseover', onMouesemove, false);
+smallBox.addEventListener('mousemove', onMouesemove, false);
